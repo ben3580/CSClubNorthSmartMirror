@@ -3,7 +3,6 @@
 # using openweathermap api 
   
 # import required modules
-#MULLEN USES NON FREEDOM UNITS AND IS LAME
 import requests, json 
   
 # Enter your API key here 
