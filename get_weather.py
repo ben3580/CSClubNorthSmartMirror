@@ -63,10 +63,20 @@ if x["cod"] != "404":
     
     # print following values 
     print("\nTemperature: " + format(current_temperature_f, '.0f') + " F")
-    print("Atmospheric pressure: " + str(current_pressure) + " hPa")
+    # print("Atmospheric pressure: " + str(current_pressure) + " hPa")
     print("Humidity: " + str(current_humidiy) + "%")
     print("Description: " + str(weather_description))
-    #print(x)
-  
+    print(x)
 else: 
     print(" City Not Found ") 
+
+
+
+'''
+What we want to be returned:
+ 1. Temp
+ 2. Feels Like
+ 3. Description:
+ 4. Wind Speed
+ 5. Sun Set Time
+'''
